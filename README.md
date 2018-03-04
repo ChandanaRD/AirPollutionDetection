@@ -17,14 +17,14 @@ bejing dataset downloaded from UCI repositiory is used.
 the attributes have been narrowed down to 
 1. year 
 2. month 
-- day 
-- hour 
-- dewpoint 
-- temperature 
-- pressure 
-- windspeed 
-- prev pm 2.5 
-- predicted pm 2.5 
+3. day 
+4. hour 
+5. dewpoint 
+6. temperature 
+7. pressure 
+8. windspeed 
+9. prev pm 2.5 
+10. predicted pm 2.5 
 
 #-------------------------------------------------------------------------------------------------------------------------
 
