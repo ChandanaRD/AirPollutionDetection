@@ -1,8 +1,8 @@
- Welcome to AirPollutionDetection
+# Welcome to AirPollutionDetection
 
 This Poject is created by a team of 3 computer science final year students of VIDYA VIKAS MYSURU, under the guidance of Aditya C R, Associate proffessor, vidya vikas, mysuru.
 
- members of the team
+# Members of the team
 
 Chandana R Deshmukh 
 Nayana D K
