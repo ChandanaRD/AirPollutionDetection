@@ -1,4 +1,4 @@
-# Welcome to AirPollutionDetection
+**Welcome to AirPollutionDetection**
 
 This Poject is created by a team of 3 computer science final year students of VIDYA VIKAS MYSURU, under the guidance of Aditya C R, Associate proffessor, vidya vikas, mysuru.
 
@@ -15,7 +15,8 @@ this project uses a dataset which was downloaded from the UCIrepository. using t
 # data set considered and the attributes
 bejing dataset downloaded from UCI repositiory is used.
 the attributes have been narrowed down to 
--1 year 
+-Bulleted
+1 year 
 -2 month 
 -3 day 
 -4 hour 
