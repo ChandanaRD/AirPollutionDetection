@@ -26,8 +26,8 @@ from sklearn.svm import SVC
 #names = ['CO(GT)', 'PT08.S1(CO)', 'NMHC(GT)' ,'C6H6(GT)', 'PT08.S2(NMHC)', 'NOx(GT)', 'PT08.S3(NOx)', 'NO2(GT)', 'PT08.S4(NO2)', 'PT08.S5(O3)', 'T', 'RH', 'AH']
 #dataset = pandas.read_csv(url, sep=',',names=names)
 
-url = "PRSA01.csv"
-names = ['pm2.5','dew_point','temperature','pressure','windspeed','result']
+url = "prsa.csv"
+names = ['year','month','day','hour','DEWP','TEMP','PRES','Iws','pm2.5','Predicted pm2.5']
 dataset = pandas.read_csv(url,names=names)
 #
 #
@@ -66,8 +66,8 @@ dataset = pandas.read_csv(url,names=names)
 
 # Split-out validation dataset
 array = dataset.values
-X = array[:,1:5]
-Y = array[:,0]
+X = array[:,0:9]
+Y = array[:,9]
 validation_size = 0.20
 seed = 7
 X_train, X_validation, Y_train, Y_validation = model_selection.train_test_split(X, Y, test_size=validation_size, random_state=seed)
@@ -116,7 +116,7 @@ scoring = 'accuracy'
 #print(confusion_matrix(Y_validation, predictions))
 #print(classification_report(Y_validation, predictions))
 #print("\n\n")
-example_measures = np.array([-8,-9,1017,2.23])
+example_measures = np.array([2050,1,2,21,-7,-5,1090,9.17,123])
 example_measures=example_measures.reshape(1 ,-1)
 #prediction = knn.predict(example_measures)
 #print(prediction)
@@ -129,6 +129,13 @@ example_measures=example_measures.reshape(1 ,-1)
 
 reg=linear_model.LinearRegression()
 reg.fit(X_train,Y_train)
+plt.scatter(X_validation, Y_validation,  color='black')
+plt.plot(X_validation, Y_validation, color='blue', linewidth=3)
+
+plt.xticks(())
+plt.yticks(())
+
+plt.show()
 reg.intercept_
 print('variance_score: %.2f' % reg.score(X_validation,Y_validation))
 predic=reg.predict(X_validation)
