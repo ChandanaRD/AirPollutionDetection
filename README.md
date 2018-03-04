@@ -15,18 +15,16 @@ this project uses a dataset which was downloaded from the UCIrepository. using t
 # data set considered and the attributes
 bejing dataset downloaded from UCI repositiory is used.
 the attributes have been narrowed down to 
-- Bulleted
-- List
-1 year 
--2 month 
--3 day 
--4 hour 
--5 dewpoint 
--6 temperature 
--7 pressure 
--8 windspeed 
--9 prev pm 2.5 
--10 predicted pm 2.5 
+- year 
+- month 
+- day 
+- hour 
+- dewpoint 
+- temperature 
+- pressure 
+- windspeed 
+- prev pm 2.5 
+- predicted pm 2.5 
 
 #-------------------------------------------------------------------------------------------------------------------------
 
