@@ -129,13 +129,6 @@ example_measures=example_measures.reshape(1 ,-1)
 
 reg=linear_model.LinearRegression()
 reg.fit(X_train,Y_train)
-plt.scatter(X_validation, Y_validation,  color='black')
-plt.plot(X_validation, Y_validation, color='blue', linewidth=3)
-
-plt.xticks(())
-plt.yticks(())
-
-plt.show()
 reg.intercept_
 print('variance_score: %.2f' % reg.score(X_validation,Y_validation))
 predic=reg.predict(X_validation)
