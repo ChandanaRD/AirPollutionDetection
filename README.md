@@ -15,8 +15,8 @@ this project uses a dataset which was downloaded from the UCIrepository. using t
 # data set considered and the attributes
 bejing dataset downloaded from UCI repositiory is used.
 the attributes have been narrowed down to 
-- year 
-- month 
+1. year 
+2. month 
 - day 
 - hour 
 - dewpoint 
