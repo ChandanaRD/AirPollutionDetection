@@ -1,18 +1,18 @@
-## Welcome to AirPollutionDetection
+# Welcome to AirPollutionDetection
 
 This Poject is created by a team of 3 computer science final year students of VIDYA VIKAS MYSURU, under the guidance of Aditya C R, Associate proffessor, vidya vikas, mysuru.
 
-## members of the team
+# members of the team
 
 Chandana R Deshmukh 
 Nayana D K
 Praveen Gandhi
 
-## Working of the project
+# Working of the project
 
 this project uses a dataset which was downloaded from the UCIrepository. using the data in the dataset, we train the machine to detect whether  the given sample of input indicates a polluted sample or not.
 
-
+#-------------------------------------------------------------------------------------------------------------------------
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
