@@ -1,0 +1,41 @@
+<!DOCtype html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'>
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <title>detection result</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-indigo.min.css">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css" type="text/css">
+        <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    </head>
+
+<body align='center'>
+    <h2 style="font-color:red">Result </h2>
+        <br>
+        <br>
+    <h4>The region having the sample is <b> {{res}} </b>
+        
+        <br><br><br>
+        <a href="{{ url_for('algoComp') }}">
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+                why LR?
+            </button></a>
+        <br><br><br>
+        <a href="{{ url_for('options') }}">
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+                back
+            </button></a>
+</body>
+
+<footer class="mdl-mini-footer" style="position: fixed; bottom: 0px; width: 100%; height: 1px; display: block;">
+    <div class="mdl-mini-footer__middle-section home" style="margin-bottom: 80px; ">
+        <div class="mdl-logo" style="font-size: 15px; position: absolute; left: 20px; color: white; top:15px">&copy; AIR POLLUTION DETECTION AND PREDICTION USING MACHINE LEARNING MODELS</div>
+    </div>
+</footer>
+
+
+</html>
